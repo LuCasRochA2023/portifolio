@@ -3,7 +3,6 @@ import github from './github.png'
 import instagran from './instagran.png'
 import linkedin from './linkedin.png'
 import logo from './vscode.png'
-import logoPequeno from './vsCodePequeno.png'
 const Principal=()=>{
     return(
         <section className={styles.principal}>
@@ -23,7 +22,6 @@ const Principal=()=>{
                     </div>
                     </div>
                     <img className={styles.logo} src={logo} alt="imagem logo do vscode" />
-                    <img className={styles.logoP} src={logoPequeno} alt='logo do vscode pequeno'/>
         </section>
     )
 }

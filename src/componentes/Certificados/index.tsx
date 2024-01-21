@@ -4,6 +4,8 @@ import arrowLeft from './arrow-left.png'
 import arrowRight from './arrow-right.png'
 import { useState } from 'react'
 import certificados from "../itens.json"
+import setaDP from './seta-direitaP.png'
+import setaEP from './seta-esquerda.png'
 const Certificados=()=>{
 
     const[selecionado,setSelecionado]=useState(0);
@@ -31,13 +33,16 @@ const Certificados=()=>{
             <div className={styles.carrossel}>
             
                 <button onClick={voltarCertificado} className={styles.botaoEsquerdo}>
-                    <img src={arrowLeft} alt='seta para esquerda'/>   
+                    <img className={styles.setaGE} src={arrowLeft} alt='seta para esquerda'/>
+                    <img className={styles.setaPE} src={setaEP} alt='seta esquerda pequena'/> 
                 </button>
                 <Carrossel rotacao={rotacao} item={certificados[selecionado]}/>
                 
                 
                 <button onClick={passarCertificado} className={styles.botaoDireito}>
-                    <img src={arrowRight} alt='seta para a direita'/>
+                    <img className={styles.setaPD} src={setaDP} alt='seta direita pequena'/>
+                    <img className={styles.setaGD} src={arrowRight} alt='seta para a direita'/>
+
                 </button>
                 
             </div>

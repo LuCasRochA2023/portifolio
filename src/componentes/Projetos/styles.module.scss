@@ -1,12 +1,15 @@
 .container{
     background:linear-gradient(90deg, #f2f9f4, #94b9ff);
     opacity: 0.8;
+    margin-right: 0;
+    max-width: 100%;
+    padding: 0;
 }
 .sessao{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
-    margin:5px;
+    margin-right:10px;
     
 }
 .tituloDiv {
@@ -20,55 +23,43 @@
 
 }
 .texto{
-    color:black ;
+    color:rgb(9, 7, 7) ;
+    font-size:24px;
     max-width: 50%;
-    padding-left: 50px;
+    padding-left: 1px;
 }
 .containerFtw{
     
     display:flex;
     flex-direction: column;
-    padding-left: 100px;
-    
+    align-items: center;
+    text-align: center;    
 }
 .imagem{
     
     border-radius: 30px;
     
-    position: relative;
-    max-width: 30%;
-    padding-right:100px;
+    max-width: 100%;
+    
 }
 .sessaoDois{
     display: flex;
     flex-direction: column;
-    padding: 50px;
     align-items: center;
     justify-content: center;
 }
 .tituloDois{
-    padding-right: 180px;
+    padding: 10px 0;
+    
 }
 .p{
-    padding-left: 54px;
+    padding: 10px;
 }
 @media screen and (max-width:1024px){
     .imagem{
-        max-width: 70%;
-        padding-left:90px;
+        max-width: 80%;
+        
         
     }
-    .sessao{
-        flex-direction: column;
-       
-    }
-    .containerFtw{
-        padding: 16px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .tituloDois{
-        padding:0  100px;
-    }
+
 }

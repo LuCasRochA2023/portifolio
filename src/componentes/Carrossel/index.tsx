@@ -1,5 +1,4 @@
 import styles from './styles.module.scss'
-import listaDeCertificados from '../itens.json'
 import { ICarrossel } from '../types/ICarrossel'
 interface carrosselProps{
     item:ICarrossel

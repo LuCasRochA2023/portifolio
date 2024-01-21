@@ -9,22 +9,22 @@
     border: #e6edf7 4px solid;
     box-shadow:10px 10px 10px (#fff);
     background:linear-gradient(150deg, #e6edf7,#e6edf7, );
-    width: 700px;
+    width: 900px;
     text-align: center;
-    margin: 23px;
+    margin: 0;
     
     
 }
 .titulo{
     color:rgb(1, 0, 0); 
     text-shadow: 1px 1px 1px rgba(2, 6, 237, 0.7);
-    padding-left: 16px;
+    padding-left: 0;
     
 }
 .conteudo{
-    color: rgb(1, 1, 1);
     font-size: 24px;
-    max-width: 60%;
+    max-width: 100%;color:
+    rgb(9, 7, 7) ;
 }
 .plataforma{
     font-size: 36px;
@@ -35,13 +35,22 @@
 .carrossel {
     transition: transform 0.5s ease-in-out;
     transform-style: preserve-3d; 
-    width: 50%;
-    max-width: 50%;
+    width: 100%;
+    max-width: 60%;
     height: 50%; 
     min-height: 200px; 
+
 }
   
   .rotacao {
     transform: rotateX(180deg);
     transform-style: preserve-3d;
+  }
+
+  @media screen and (max-width:1024px){
+    .carrossel{
+        margin:20px 0;
+        padding: 0;
+        max-width: 60%;
+    }
   }

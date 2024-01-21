@@ -13,7 +13,7 @@ const Projetos=()=>{
                     <h2>FTW</h2>
                     <h3 className={styles.texto}> Aplicação com informações sobre a empresa FTW soluções automotivas, localizada em Porto Alegre - RS. Está aplicação foi adaptada e funciona apenas para fins de testes baseada em um projeto da Alura.</h3>
                     <a href='https://ftw-new.vercel.app'>
-                    <p className={styles.p}>https://ftw-new.vercel.app</p>
+                        <p className={styles.p}>https://ftw-new.vercel.app</p>
                     </a>
                 </div>
                 <img className={styles.imagem} src={ftw} alt='imagem do site ftw'/>

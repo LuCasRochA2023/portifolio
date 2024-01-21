@@ -1,6 +1,7 @@
 .section{
     background:linear-gradient(90deg, #f2f9f4, #94b9ff);
     font-family: var(--fonte-jose);
+    padding: 3em;
 }
 .container div{
     display: flex;
@@ -14,17 +15,18 @@
     text-shadow:30px 35px 4px #126ea0;
 }
 .boxSobreMim p{
-    font-size: 26px;
+    color:rgb(9, 7, 7) ;
+    font-size:24px;
     padding-right: 60px;
     color: rgb(1, 0, 0);
     max-width: 40%;
     text-align: center;
     
 }
-@media  screen and (max-width:667px) {
+@media  screen and (max-width:1024px) {
 
     .divTitulo h1{
-        padding-right: 27px;
+        padding: 10px;
     }
     .container div{
         display:flex;
@@ -32,6 +34,9 @@
         flex-direction: column;
     }
     .boxSobreMim p{
-        padding-left:70px;
+        margin-right: 0;
+        max-width: 100%;
+        align-items: center;
+        
     }
 }

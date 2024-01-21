@@ -20,4 +20,9 @@ footer p{
     .container p{ 
         display: none;
     }
+    .container{
+        padding: 0;
+        margin: 0;
+        max-width: 100%;
+    }
 }

@@ -1,10 +1,9 @@
 .certificados{
     background:linear-gradient(90deg,  #94b9ff,#f2f9f4);
-    padding: 0;
     margin: auto auto;
 
     max-width: 100%;
-    padding: 16px 0;
+    padding: 3em 0;
 }
 .certificados h1{
    
@@ -29,4 +28,28 @@
 }
 .botaoEsquerdo{
     background: transparent;
+}
+.setaPD{
+    display: none;
+}
+.setaPE{
+    display: none;
+}
+@media screen and (max-width:1024px){
+    .carrossel button{
+        padding: 0;
+        margin: 0;
+    };
+    .setaPD{
+        display: block;
+    }
+    .setaPE{
+        display: block;
+    }
+    .setaGE{
+        display:none ;
+    }
+    .setaGD{
+        display: none;
+    }
 }

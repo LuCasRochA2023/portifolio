@@ -1,24 +1,30 @@
 
+
+
 @import url('https://fonts.googleapis.com/css2?family=Manjari&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+
+
 body {
   display: flex;
   justify-content: center;
   font-family: var(--fonte-jose);
   color: #F0F0F0;
   padding:0;
-  margin-right: 0;
   box-sizing: border-box;
-  width: 100vw;
-  height: 100vh; /* Garante que o corpo tenha pelo menos 100% da altura da janela visível */
-  margin: 0; /* Remove a margem padrão do body */
+  height: 100vh;
+  /* Garante que o corpo tenha pelo menos 100% da altura da janela visível */
+  margin: -5px;
+  padding: 0/* Remove a margem padrão do body */
 }
 
 /* Raiz do aplicativo */
 #root {
   width: 100%;
+  max-width: 100%;
+  padding: 0;
   --fonte-rock:'Righteous', sans-serif;
   --fonte-robo:'Roboto', sans-serif;
   --fonte-jose:'Josefin Sans', sans-serif;
@@ -59,12 +65,12 @@ input {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-@media screen and (max-width:914px){
+@media screen and (max-width:1024px){
   body{
-    margin-right: 0;
-    padding-left: 128px;
-    max-width: 100%;
-    
+    margin: -60px ;
+    padding:5px;
+ 
+
   }    
 
 }
