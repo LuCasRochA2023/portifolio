@@ -1,0 +1,50 @@
+[
+    {
+        "titulo": "A partir do zero: HTML e CSS para projetos web",
+        "plataforma":"Alura",
+        "id": 0,
+        "conteudo":"Aprender a usar ferramentas de desenvolvimento de layouts (ex: Figma) e publicação (ex: Github); Estruturar uma página web com tags HTML;Compreender como HTML e CSS trabalham juntos Descobrir como organizar o conteudo com arquivos HTML; Organizar uma página com CSS Flexbox;Criar cabeçalhos, rodapés e aplicar estilos com CSS; Tornar seu site responsivo para diferentes tamanhos de tela;"
+
+    },{
+        "titulo": " Desenvolva aplicações Web em JavaScript com tarefas concorrentes e orientadas a objetos",
+        "plataforma":"Alura",
+        "id":1,
+        "conteudo":"Realizar requisições simultâneas de forma assíncrona; Aplicar técnicas de manipulação de objetos em JavaScript para aplicações dinâmicas e interativas."
+       
+
+    },{
+        "titulo":" Full stack JavaScript: crie um projeto com React e Node.js",
+        "plataforma":"Alura",
+        "id":2,
+        "conteudo":"Nesta formação é abordando conceitos-base do React, avançando com o desenvolvimento de uma API em Node.js utilização de bancos de dados e integração da API com a aplicação React. Esta formação tem o objetivo de preparar você para criar uma aplicação web de ponta a ponta, ou seja, do front-end ao back-end."
+
+    },{
+        "titulo":" Explore React com JavaScript",
+        "plataforma":"Alura",
+        "id":3,
+        "conteudo":"Criar componentes reativos e analisar mensagens de erro, modificar componentes de acordo com a necessidade do projeto. Explorar hooks do react-router-dom, implementar desafios práticos e desenvolver seu código com base no princípio da responsabilidade única, facilitando a manutenção.Depois, migrar a aplicação para typescript."
+
+
+        
+    },{
+        "titulo":"Gerencie aplicações React com Typescript. conteudo",
+        "plataforma":"Alura",
+        "id":4,
+        "conteudo":"Utilizar styled-components, recoil, typescript e aprender como o funciona a estrutura do React."
+
+
+    },{
+        "titulo":"Criando uma aplicação acessível com JavaScript, Emotion e React Router.",
+        "plataforma":"Alura",
+        "id":5,
+        "conteudo":"Criar componentes de interface limpos e bem estruturados, e garantir que esses componentes sejam acessíveis para usuários com necessidades especiais.Fazer uso da biblioteca emotion para a estilização. Migrar do React para Vite .Implementar uma autenticação  baseada em token. Por fim, dominar o uso do axios para gerenciar os tokens de autenticação."
+    },{
+        "titulo":"Impulsione sua aplicação React e consuma APIs",
+        "plataforma":"Alura",
+        "id":6,
+        "conteudo":" Criar uma biblioteca de componentes usando storybooks e publicar a biblioteca no NPM. Se aprofundar em conceitos de segurança realizando o login e logout do usuário. Utilizar o Apollo Cliente e GraphQL para lidar com obtenção de conteudos (useQuery) e envio (useMutation) de dados para o servidor."
+
+    
+
+    }
+]

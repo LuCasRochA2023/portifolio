@@ -1,0 +1,74 @@
+.container{
+    background:linear-gradient(90deg, #f2f9f4, #94b9ff);
+    opacity: 0.8;
+}
+.sessao{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:5px;
+    
+}
+.tituloDiv {
+    font-size: 30px;
+    color: black;
+    justify-content: center;
+    display: flex;
+    color:rgb(26, 211, 5);
+    text-decoration: underline;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8);
+
+}
+.texto{
+    color:black ;
+    max-width: 50%;
+    padding-left: 50px;
+}
+.containerFtw{
+    
+    display:flex;
+    flex-direction: column;
+    padding-left: 100px;
+    
+}
+.imagem{
+    
+    border-radius: 30px;
+    
+    position: relative;
+    max-width: 30%;
+    padding-right:100px;
+}
+.sessaoDois{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.tituloDois{
+    padding-right: 180px;
+}
+.p{
+    padding-left: 54px;
+}
+@media screen and (max-width:1024px){
+    .imagem{
+        max-width: 70%;
+        padding-left:90px;
+        
+    }
+    .sessao{
+        flex-direction: column;
+       
+    }
+    .containerFtw{
+        padding: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tituloDois{
+        padding:0  100px;
+    }
+}

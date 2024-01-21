@@ -1,0 +1,32 @@
+$caminho-imagem-header:'./designHeader.png' ;
+
+
+.header {
+    display: flex;
+    height: 130px;
+    background:linear-gradient(150deg, #b1dff7,#d9e2ef, );
+    border-bottom: #e6edf7 10px solid;
+    
+    justify-content: center;
+}
+.iconeJs{
+    display:none;
+}
+.icones img{
+    transition: transform 0.3s ease;
+    height: 100px;
+    padding: 16px;
+}
+.icones img:hover{
+    transform: scale(1.2);
+}
+
+@media screen and (max-width:1023px) {
+    .icones img{
+        display: none;
+    }
+    .iconeJs{ 
+        display: block;
+    }
+    
+}

@@ -1,0 +1,32 @@
+.certificados{
+    background:linear-gradient(90deg,  #94b9ff,#f2f9f4);
+    padding: 0;
+    margin: auto auto;
+
+    max-width: 100%;
+    padding: 16px 0;
+}
+.certificados h1{
+   
+    padding: 0 0 6px 0;
+    font-size: 44px;
+    color:#126ea0;
+    text-shadow: 30px 35px 4px rgb(32, 211, 20);
+    font-family: var(--fonte-jose);
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+.carrossel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botaoDireito{
+    background: transparent;
+}
+.botaoEsquerdo{
+    background: transparent;
+}

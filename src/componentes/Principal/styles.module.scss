@@ -1,0 +1,95 @@
+div h2{
+    font-size: 40px;
+    color:#0042d0;
+    text-shadow: 2px 2px 4px rgba(40, 86, 193, 0.7);
+
+    padding: 0 0 0 120px;
+    margin:2px;
+    font-family: var(--fonte-jose);
+    margin: 8px;
+    
+}
+.textoSecundario{
+    color: rgb(16, 146, 2);
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(17, 237, 90, 0.7);
+    
+}
+.divTexto{
+    height: 400px;
+    margin: 10px;
+    margin-top: 30px;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+}
+.principal{
+    background:linear-gradient(90deg, #cdffd8, #94b9ff);
+    padding: 32px;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    margin-right: 0;    
+
+}
+.logo{
+    max-width: 100%;
+    padding-right: 32px;
+    margin-top: -50px ;
+    position: relative;
+
+}
+.logoP{
+    display: none;
+}
+
+@media screen and (max-width:1023px){
+    .principal{
+        margin: 0;
+    }
+    div h2{
+        font-size: 30px;
+        
+        padding: 5px 0px 5px 50px;
+        
+    }
+    .divTexto{
+        padding-right: 1px;
+        max-width: 100%;
+        
+    }
+    .links{
+        padding-left: 50px;
+    }
+    .logo{
+        display: none;
+    }
+    .logoP{
+        max-height: 50%;
+        max-width: 100%;
+        padding-right: 100px;
+        display: block;
+        
+    }
+}
+@media screen and (max-width:667px){
+
+    .logoP{
+        display: none;
+    }
+    .divTexto{
+        padding-right: 110px;
+        max-width: 100%;
+        
+    }
+    .links{
+        padding-left: 50px;
+    }
+}

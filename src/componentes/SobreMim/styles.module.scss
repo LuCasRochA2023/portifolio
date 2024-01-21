@@ -1,0 +1,37 @@
+.section{
+    background:linear-gradient(90deg, #f2f9f4, #94b9ff);
+    font-family: var(--fonte-jose);
+}
+.container div{
+    display: flex;
+    justify-content:center ;
+    
+}
+
+.section h1{
+    font-size: 44px;
+    color: rgb(32, 211, 20);
+    text-shadow:30px 35px 4px #126ea0;
+}
+.boxSobreMim p{
+    font-size: 26px;
+    padding-right: 60px;
+    color: rgb(1, 0, 0);
+    max-width: 40%;
+    text-align: center;
+    
+}
+@media  screen and (max-width:667px) {
+
+    .divTitulo h1{
+        padding-right: 27px;
+    }
+    .container div{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .boxSobreMim p{
+        padding-left:70px;
+    }
+}

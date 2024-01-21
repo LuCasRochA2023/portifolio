@@ -1,0 +1,47 @@
+.carrossel{
+    font-family: var(--fonte-jose);
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px ;
+    border: #e6edf7 4px solid;
+    box-shadow:10px 10px 10px (#fff);
+    background:linear-gradient(150deg, #e6edf7,#e6edf7, );
+    width: 700px;
+    text-align: center;
+    margin: 23px;
+    
+    
+}
+.titulo{
+    color:rgb(1, 0, 0); 
+    text-shadow: 1px 1px 1px rgba(2, 6, 237, 0.7);
+    padding-left: 16px;
+    
+}
+.conteudo{
+    color: rgb(1, 1, 1);
+    font-size: 24px;
+    max-width: 60%;
+}
+.plataforma{
+    font-size: 36px;
+    color: rgb(1, 0, 0);
+    text-shadow: 1px 1px 1px  rgba(2, 6, 237, 0.7);
+
+}
+.carrossel {
+    transition: transform 0.5s ease-in-out;
+    transform-style: preserve-3d; 
+    width: 50%;
+    max-width: 50%;
+    height: 50%; 
+    min-height: 200px; 
+}
+  
+  .rotacao {
+    transform: rotateX(180deg);
+    transform-style: preserve-3d;
+  }

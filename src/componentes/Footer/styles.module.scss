@@ -1,0 +1,23 @@
+.container{
+    background: #f4f5f8;
+    opacity: 0.7;
+    margin-top: 0;
+    padding: 0;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    border: solid 2px rgb(9, 37, 148);
+    border-radius: 2px;
+    
+}
+footer p{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+@media screen and (max-width:915px){
+    .container p{ 
+        display: none;
+    }
+}
